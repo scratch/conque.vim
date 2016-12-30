@@ -52,7 +52,6 @@ let s:hooks = { 'after_startup': [], 'buffer_enter': [], 'buffer_leave': [], 'af
 
 " required for session support
 " -- nk Check if ConqueTerm_SessionSupport
-" if g:ConqueTerm_SessionSupport == 1 exists
 if exists('g:ConqueTerm_SessionSupport') && g:ConqueTerm_SessionSupport == 1
     set sessionoptions+=globals
     try
